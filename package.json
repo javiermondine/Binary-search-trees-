@@ -5,7 +5,10 @@
   "main": "main.js",
   "scripts": {
     "start": "node main.js",
-    "test": "node test.js"
+    "test": "jest --runInBand --detectOpenHandles --verbose"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   },
   "author": "javiermondine",
   "license": "MIT"
